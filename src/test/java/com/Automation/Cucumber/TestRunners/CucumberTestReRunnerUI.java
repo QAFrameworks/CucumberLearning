@@ -21,5 +21,4 @@ public class CucumberTestReRunnerUI {
 }
 
 
-//mvn clean test -Dtest=CucumberTestRunnerUI
-//mvn clean test -Dcucumber.options="--tags '@test6'"
+

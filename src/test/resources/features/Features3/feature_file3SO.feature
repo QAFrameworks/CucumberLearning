@@ -9,4 +9,5 @@ Feature: to explain SO
       | 1_test_desc | 4     | 5     | 9      |
       | 2_test_desc | 0     | 5     | 5      |
       | 3_test_desc | -1    | 5     | 4      |
-      | 4_test_desc | 4     | 5     | 9      |
+      #intentionally failed
+      | 4_test_desc | 4     | 5     | 91      |

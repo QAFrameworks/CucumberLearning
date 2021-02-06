@@ -12,7 +12,7 @@ import io.cucumber.junit.CucumberOptions;
         glue = {
                 "com.Automation.Cucumber.StepDefs", "com.Automation.Cucumber.Hooks"
         },
-        tags = "@working",
+        tags = "not @working", //not
         plugin = {"pretty", "html:target/cucumber-original/cucumber.html",
                 "json:target/cucumber-report.json",
                 "rerun:target/rerun.txt",
@@ -26,5 +26,10 @@ public class CucumberTestRunnerUI {
 }
 
 
-//mvn clean test -Dtest=CucumberTestRunnerUI
-//mvn clean test -Dcucumber.options="--tags '@test6'"
+//mvn clean test -Dtest=CucumberTestRunnerUI, run the specified Test runner
+//mvn clean install -Dtest=CucumberTestRunnerUI   , look for jar creation
+//mvn clean test , if runner class is prefixed or suffixed with test
+
+        //mvn clean test -Dtest=CucumberTestRunnerUI -Dcucumber.options="--tags '@test6'"   - old way
+
+        //mvn clean test -Dtest=CucumberTestRunnerUI -Dcucumber.filter.tags="@test6"   --New way
