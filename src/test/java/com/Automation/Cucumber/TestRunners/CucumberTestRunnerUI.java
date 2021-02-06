@@ -27,7 +27,7 @@ public class CucumberTestRunnerUI {
 
 
 //mvn clean test -Dtest=CucumberTestRunnerUI, run the specified Test runner
-//mvn clean install -Dtest=CucumberTestRunnerUI   , look for jar creation
+//mvn clean -Dtest=CucumberTestRunnerUI   , look for jar creation TestRunner should not have have clean
 //mvn clean test , if runner class is prefixed or suffixed with test
 
         //mvn clean test -Dtest=CucumberTestRunnerUI -Dcucumber.options="--tags '@test6'"   - old way
