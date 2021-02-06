@@ -12,7 +12,7 @@ import io.cucumber.junit.CucumberOptions;
         glue = {
                 "com.Automation.Cucumber.StepDefs", "com.Automation.Cucumber.Hooks"
         },
-        tags = "not @working", //not
+        tags = "@working", //not
         plugin = {"pretty", "html:target/cucumber-original/cucumber.html",
                 "json:target/cucumber-report.json",
                 "rerun:target/rerun.txt",

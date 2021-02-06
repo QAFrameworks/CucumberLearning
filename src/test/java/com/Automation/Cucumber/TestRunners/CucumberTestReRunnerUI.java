@@ -15,7 +15,7 @@ import io.cucumber.junit.CucumberOptions;
                 "json:target/cucumber-report-rerun.json"
 
         },
-        publish = true // try other ways
+        publish = true // try other ways //some changes
 )
 public class CucumberTestReRunnerUI {
 }
