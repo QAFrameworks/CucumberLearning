@@ -1,8 +1,6 @@
 package com.Automation.Cucumber.StepDefs;
 
-import cucumber.api.java.en.Given;
-import cucumber.api.java.en.Then;
-import cucumber.api.java.en.When;
+import io.cucumber.java.en.*;
 import org.junit.Assert;
 
 public class MyStepDefs3SO extends BaseStepDefs {
@@ -14,7 +12,7 @@ int calculationResult;
         calculationResult=operand1+operand2;
     }
 
-    @Then("the sum is (.*)")
+    @Then("the sum is {int}")
     //Regular Expression
     public void theSumIsResult(int x) {
         Assert.assertEquals(x,calculationResult);

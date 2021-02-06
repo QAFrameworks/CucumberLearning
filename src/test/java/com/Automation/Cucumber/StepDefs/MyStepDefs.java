@@ -1,9 +1,7 @@
 package com.Automation.Cucumber.StepDefs;
 
-import cucumber.api.PendingException;
-import cucumber.api.java.en.And;
-import cucumber.api.java.en.Given;
-import cucumber.api.java.en.When;
+
+import io.cucumber.java.en.*;
 
 public class MyStepDefs extends BaseStepDefs {
     @Given("This is my context")

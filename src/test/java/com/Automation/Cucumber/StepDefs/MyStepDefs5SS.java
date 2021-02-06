@@ -1,11 +1,6 @@
 package com.Automation.Cucumber.StepDefs;
 
-import cucumber.api.java.en.Given;
-import cucumber.api.java.en.When;
-import io.cucumber.datatable.DataTable;
-
-import java.util.List;
-import java.util.Map;
+import io.cucumber.java.en.*;
 import java.util.Random;
 
 public class MyStepDefs5SS extends BaseStepDefs {
